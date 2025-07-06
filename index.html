@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-image: url(kk.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment:fixed;
+                background-size:cover;
+                padding-top:15px;
+            }
+            .head{
+                color:rgb(0, 0, 0);
+                font-style:unset;
+                font-family:'Courier New', Courier, monospace;
+                font-size:52px;
+                font-weight:bold;
+                font-variant:small-caps;
+                margin-left:200px;
+                margin-top:90px;
+                width:300px;
+                line-height: 50px;
+                background:transparent;
+                text-shadow: 0px 0px 6px gold;
+                text-decoration: underline;
+            }
+            .b{
+                position:fixed;
+
+            }
+            .header{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .image{
+                width:400px;
+                align-items: center;
+            }
+            .c{
+                position:fixed;
+                right:100px;
+                top:100px;
+                border-radius:100px;
+                box-shadow:0px 0px 40px gold;
+            }
+            .book{
+                width:200px;
+            }
+            .b{
+                position:fixed;
+                right:150px;
+                bottom:100px;
+                width:500px;
+                height:300px;
+                background:transparent;
+                border-radius: 8px;
+                font-family:'Courier New', Courier, monospace;
+                display:flex;
+                flex-direction:column;
+            }
+            .b:hover{
+                background-color: rgba(25, 190, 223, 0.2);
+            }
+            .r{
+                margin-top:20px;
+                margin-left:120px;
+                font-weight:bolder;
+                font-size:20px;
+            }
+            .tourist{
+                margin-left:40px;
+                margin-top:30px;
+                font-weight:500;
+                padding-left:20px;
+                font-weight:bold;
+                width:400px;
+                height:40px;
+                border-radius:20px;
+                border-style:solid;
+                border-width:6px;
+                border-color:violet;
+            }
+            .boo{
+                font-size:54px;
+                color:purple;
+                text-align: center;
+                margin-top:20px;
+                font-weight:bolder;
+                text-shadow:0px 0px 20px lightblue ;
+                background:transparent;
+                font-family:'Courier New', Courier, monospace;
+            }
+            .number{
+                color:black;
+                font-weight:bold;
+                width:400px;
+                padding-left:20px;
+                height:40px;
+                border-radius:20px;
+                border-style:solid;
+                margin-left:40px;
+                border-width:6px;
+                border-color:violet;
+                margin-top:15px;
+            }
+            .bsec{
+                display:flex;
+                flex-direction:row;
+                align-items: center;
+                margin-top:30px;
+                margin-left:50px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            .sbut{
+                color:white;
+                font-weight:bold;
+                background-color: violet;
+                border:none;
+                width:180px;
+                font-size:17px;
+                height:40px;
+                border-radius:20px;
+                font-weight:bolder;
+                cursor:pointer;
+                transition: all 0.3s;
+            }
+            .sbut:hover{
+                box-shadow:0px 0px 20px silver;
+            }
+            .sbut:active{
+                opacity:0.7;
+            }
+            .ebut{
+                width:180px;
+                height:40px;
+                border-radius:20px;
+                color:rgb(247,176,43);
+                background-color:transparent;
+                border-color:rgb(247, 176, 43);
+                border-width:2.5px;
+                border-style:solid;
+                margin-left:50px;
+                font-weight:bolder;
+                font-size:17px;
+                cursor:pointer;
+                transition:all 0.3s;
+            }
+            .ebut:hover{
+                box-shadow:0px 0px 20px gold;
+            }
+            .ebut:active{
+                color:white;
+                border:none;
+                background-color:rgb(247, 176, 43);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header"><img src="abudabhi.png" class="image"></div>
+        <p class="boo">Hotel Booking Website</p>
+        <div class="c"><img src="booknow.png" class="book"></div>
+        <div class="head">
+            Find your perfect stay
+        </div>
+        <div class="b">
+            <div class="r">Register/login Now</div>
+            <div><input class="tourist" type="text" placeholder="Name of the tourist"></div>
+            <div><input class="number" type="number" placeholder="Phone Number"></div>
+            <div class="bsec">
+                <button class="sbut">Start Booking</button>
+                <button class="ebut">Explore Hotels</button>
+            </div>
+        </div>
+    </body>
+</html>
